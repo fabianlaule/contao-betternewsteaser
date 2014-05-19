@@ -19,7 +19,7 @@
 
 // Show only if we are at the content elements of news
 
-if((TL_MODE == 'BE') && \Input::get('do') == 'news' || TL_MODE == 'FE')
+if ((TL_MODE == 'BE') && \Input::get('do') == 'news' || TL_MODE == 'FE')
 {
 	$GLOBALS['TL_CTE']['news']['betternewsteaser'] = 'ContentNewsTeaserEnd';
 }
